@@ -11,3 +11,4 @@ rm -r Using the recursive option (-r), rm can also be used to delete directories
 cd - , this script changes the working directory to the previous one.
 ls -al . .. /boot command ists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 file command is used to classify a file's contents.
+ln -s /bin/ls __ls__ used to Create a symbolic link.
