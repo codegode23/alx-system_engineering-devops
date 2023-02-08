@@ -8,3 +8,4 @@ mkdir command is used to create directories.
 mv command is used to move or rename files and directories.
 rm command removes (deletes) files and directories.
 rm -r Using the recursive option (-r), rm can also be used to delete directories.
+cd - , this script changes the working directory to the previous one.
