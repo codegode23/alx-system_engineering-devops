@@ -6,3 +6,4 @@ ls -la is used to list all files (even ones with names beginning with a period c
 ls -lan is used to list all files, hidden files included and display user and group IDs numerically
 mkdir command is used to create directories.
 mv command is used to move or rename files and directories.
+rm command removes (deletes) files and directories.
