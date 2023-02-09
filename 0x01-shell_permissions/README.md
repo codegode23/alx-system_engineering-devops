@@ -14,3 +14,4 @@ mkdir -m 751 my_dir is a command that creates a directory called my_dir with per
 chgrp school hello is a command that changes the group owner to school for the file.
 chown -hR vincent:staff . is a command that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 chown -h vincent:staff _hello is a command that changes the owner and the group owner of _hello to vincent and staff respectively.
+chown -h vincent:staff _hello is a command that changes the owner of the file hello to betty only if it is owned by the user guillaume.
