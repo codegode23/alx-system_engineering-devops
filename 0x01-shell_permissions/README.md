@@ -5,3 +5,4 @@ chown is a command used to change the owner of a file. e.g "chown betty hello" w
 touch is a command used to create a new file.
 chmod u+x is a command that adds execute permission to the owner of a file. e.g "chmod u+x hello" adds execute permission to the hello file.
 chmod ug+x,o+r is a command that adds execute permission to the owner and the group owner, and read permission to other users, to the file. .eg. "chmod ug+x,o+r hello" adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+chmod ugo+x is a command that adds execution permission to the owner, the group owner and the other users, to a file. e.g. "chmod ugo+x hello" that adds execution permission to the owner, the group owner and the other users, to the "hello" file.
