@@ -4,4 +4,4 @@ groups is a command that prints all the groups the current user is part of.
 chown is a command used to change the owner of a file. e.g "chown betty hello" will change the owner of the file "hello" to "betty".
 touch is a command used to create a new file.
 chmod u+x is a command that adds execute permission to the owner of a file. e.g "chmod u+x hello" adds execute permission to the hello file.
-chmod u+g+x,o+r is a command that adds execute permission to the owner and the group owner, and read permission to other users, to the file. .eg. "chmod u+g+x,o+r hello" adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+chmod ug+x,o+r is a command that adds execute permission to the owner and the group owner, and read permission to other users, to the file. .eg. "chmod ug+x,o+r hello" adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
