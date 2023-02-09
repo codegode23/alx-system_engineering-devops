@@ -11,3 +11,4 @@ chmod 753 is a command that sets the mode of the file to all permissions for own
 chmod --reference=newmod old mode is a command that sets the mode of the file oldmode to that of newmod.
 chmod -R ugo+X is a command  that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.Regular files are not changed.
 mkdir -m 751 my_dir is a command that creates a directory called my_dir with permissions 751 in the working directory.
+chgrp school hello is a command that changes the group owner to school for the file.
