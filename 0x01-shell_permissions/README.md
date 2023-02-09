@@ -8,3 +8,4 @@ chmod ug+x,o+r is a command that adds execute permission to the owner and the gr
 chmod ugo+x is a command that adds execution permission to the owner, the group owner and the other users, to a file. e.g. "chmod ugo+x hello" that adds execution permission to the owner, the group owner and the other users, to the "hello" file.
 chmod 007 is a command that gives no permission to both the owner and group of the file but grants users all permissions.
 chmod 753 is a command that sets the mode of the file to all permissions for owner, only read and read and execute permission for the group and write and execute permission for the user.
+chmod --reference=newmod old mode is a command that sets the mode of the file oldmode to that of newmod.
