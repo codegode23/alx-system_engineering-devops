@@ -12,3 +12,4 @@ chmod --reference=newmod old mode is a command that sets the mode of the file ol
 chmod -R ugo+X is a command  that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.Regular files are not changed.
 mkdir -m 751 my_dir is a command that creates a directory called my_dir with permissions 751 in the working directory.
 chgrp school hello is a command that changes the group owner to school for the file.
+chown -hR vincent:staff . is a command that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
