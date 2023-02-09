@@ -1,2 +1,3 @@
 su command is used to run a command as a different user.
-echo $USER is used to get the current user name.
+whoami is used to get the current user name.
+groups is a command that prints all the groups the current user is part of.
