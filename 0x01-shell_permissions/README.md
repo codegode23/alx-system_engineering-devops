@@ -3,3 +3,4 @@ whoami is used to get the current user name.
 groups is a command that prints all the groups the current user is part of.
 chown is a command used to change the owner of a file. e.g "chown betty hello" will change the owner of the file "hello" to "betty".
 touch is a command used to create a new file.
+chmod u+x is a command that adds execute permission to the owner of a file. e.g "chmod u+x hello" adds execute permission to the hello file.
