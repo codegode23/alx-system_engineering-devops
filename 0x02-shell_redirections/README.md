@@ -11,3 +11,5 @@
 # tail - This command Displays the last lines of a specified file's input. e.g. tail -n 10 /etc/passwd Display the last 10 lines of /etc/passwd.
 
 # head - This command Displays the first lines of a specified file's input. e.g. head -n 10 /etc/paswwd displays the first 10 linnes of /etc.passwd
+
+#head -n 3 iacta | tail -n 1 - a script that displays the third line of the file iacta.
