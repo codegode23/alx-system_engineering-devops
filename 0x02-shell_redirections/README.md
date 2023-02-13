@@ -29,4 +29,6 @@
 # sort | uniq -u - a script that takes a list of words as input and prints only words that appear exactly once.
 ## 1. Input format: One line, one word
 ## 2. Output format: One line, one word
-## 3. Words should be sorted 
+## 3. Words should be sorted
+
+# grep -i "root" /etc/passwd  - A script that Display lines containing the pattern “root” from the file /etc/passwd. 
