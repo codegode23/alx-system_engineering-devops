@@ -7,3 +7,5 @@
 # cat - short for "concatenate" is a command that allows us to create single or multiple files, view content of a file, concatenate files and redirect output in terminal or files. cat /etc/passwd will Display the content of the /etc/passwd file.
 
 # cat file1 file2 - This command helps you View Contents of Multiple Files in terminal.
+
+# tail - This command Displays the last lines of a specified file's input. e.g. tail -n 10 /etc/passwd Display the last 10 lines of /etc/passwd.
