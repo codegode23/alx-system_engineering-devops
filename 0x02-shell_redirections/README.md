@@ -47,3 +47,4 @@
 
 # rev  -  a script that reverse its input.
 
+# cut -d ':' -f 1,6 /etc/passwd | sort  -  a script that displays all users and their home directories, sorted by users. It is Based on the the /etc/passwd file.
