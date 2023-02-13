@@ -24,4 +24,9 @@
 
 # find . -type d -not -name '.' | wc -l  - a script that counts the number of directories and sub-directories in the current directory. Here The current and parent directories are not taken into account. Hidden directories are counted
 
-# ls -t1 | head -n 10 - a script that displays the 10 newest files in the current directory. Here One file per line is displayed. The files are Sorted from the newest to the oldest. 
+# ls -t1 | head -n 10 - a script that displays the 10 newest files in the current directory. Here One file per line is displayed. The files are Sorted from the newest to the oldest.
+
+# sort | uniq -u - a script that takes a list of words as input and prints only words that appear exactly once.
+## 1. Input format: One line, one word
+## 2. Output format: One line, one word
+## 3. Words should be sorted 
