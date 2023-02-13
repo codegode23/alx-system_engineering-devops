@@ -12,4 +12,6 @@
 
 # head - This command Displays the first lines of a specified file's input. e.g. head -n 10 /etc/paswwd displays the first 10 linnes of /etc.passwd
 
-#head -n 3 iacta | tail -n 1 - a script that displays the third line of the file iacta.
+# head -n 3 iacta | tail -n 1 - a script that displays the third line of the file iacta.
+
+# echo - a script used for displaying lines of text or string which are passed as arguments on the command line.
