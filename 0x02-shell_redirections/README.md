@@ -48,3 +48,9 @@
 # rev  -  a script that reverse its input.
 
 # cut -d ':' -f 1,6 /etc/passwd | sort  -  a script that displays all users and their home directories, sorted by users. It is Based on the the /etc/passwd file.
+
+# find . -empty | rev | cut -d '/' -f 1 | rev  -  a command that finds all empty files and directories in the current directory and all sub-directories.
+## 1. Only the names of the files and directories are displayed
+## 2. Hidden files are listed
+## 3. One file name per line
+## 4. The listing ends with a new line
