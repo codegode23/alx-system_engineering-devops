@@ -8,4 +8,6 @@
 
 ## echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))  - a script that counts the number of directories in the PATH.
 
-##  
+## printenv - a script that lists environment variables.
+
+##   
