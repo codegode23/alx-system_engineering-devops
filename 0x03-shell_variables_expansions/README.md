@@ -37,4 +37,6 @@
 
 ## tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`  -  a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
-##         
+## perl -lne 'print if $. % 2 == 1'  - a script that prints every other line from the input, starting with the first line.
+
+##          
