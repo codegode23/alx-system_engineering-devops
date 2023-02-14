@@ -20,4 +20,6 @@
 
 ## echo $(($POWER / $DIVIDE))  -   script that prints the result of POWER divided by DIVIDE, followed by a new line. Here POWER and DIVIDE are environment variables.
 
-##       
+## echo $(($BREATH**$LOVE)) - a script that displays the result of BREATH to the power LOVE. Here BREATH and LOVE are environment variables. The script displays the result, followed by a new line.
+
+##      
