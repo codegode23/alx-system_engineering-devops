@@ -31,4 +31,6 @@
 4. Does not  print oo.
 5. The script file contains 64 characters max.
 
+## printf "%.2f" $NUM | sort  -  script that prints a number with two decimal places, followed by a new line. Here the number will be stored in the environment variable NUM.
+
 ##        
