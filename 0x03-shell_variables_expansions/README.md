@@ -39,4 +39,7 @@
 
 ## perl -lne 'print if $. % 2 == 1'  - a script that prints every other line from the input, starting with the first line.
 
-##          
+## echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'behlnort') -  a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+1. WATER is in base water
+2. STIR is in base stir.
+3. The result should be in base bestchol          
