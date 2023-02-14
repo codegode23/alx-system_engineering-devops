@@ -33,4 +33,6 @@
 
 ## printf "%.2f" $NUM | sort  -  script that prints a number with two decimal places, followed by a new line. Here the number will be stored in the environment variable NUM.
 
-##        
+## printf '%x\n' $DECIMAL - a script that converts a number from base 10 to base 16. Here The number in base 10 is stored in the environment variable DECIMAL abd the script displays the number in base 16, followed by a new line.
+
+##         
