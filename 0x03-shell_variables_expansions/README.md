@@ -24,4 +24,11 @@
 
 ## echo $((2#$BINARY))  -  a script that converts a number from base 2 to base 10. Here The number in base 2 is stored in the environment variable BINARY. The script also displays the number in base 10, followed by a new line.
 
-##       
+## echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"  -  a script that prints all possible combinations of two letters, except oo.
+1. The Letters are lower cases, from a to z
+2. One combination per line.
+3. The output is alpha ordered, starting with aa.
+4. Does not  print oo.
+5. The script file contains 64 characters max.
+
+##        
