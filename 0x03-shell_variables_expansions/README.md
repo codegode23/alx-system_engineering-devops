@@ -12,4 +12,6 @@
 
 ## set  - a script that lists all local variables and environment variables, and functions.
 
-##    
+## BEST="School"  - a script that creates a new local variable with "BEST" as the name and "School" as the variable.
+
+##     
