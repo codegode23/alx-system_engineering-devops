@@ -22,4 +22,6 @@
 
 ## echo $(($BREATH**$LOVE)) - a script that displays the result of BREATH to the power LOVE. Here BREATH and LOVE are environment variables. The script displays the result, followed by a new line.
 
-##      
+## echo $((2#$BINARY))  -  a script that converts a number from base 2 to base 10. Here The number in base 2 is stored in the environment variable BINARY. The script also displays the number in base 10, followed by a new line.
+
+##       
