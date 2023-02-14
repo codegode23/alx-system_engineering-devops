@@ -14,4 +14,6 @@
 
 ## BEST="School"  - a script that creates a new local variable with "BEST" as the name and "School" as the variable.
 
-##     
+## export BEST="School"  -  a script that creates a new global variable. with "BEST" as the name and "School" as the variable.
+
+##      
